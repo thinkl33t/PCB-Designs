@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MINIMUS">
+<pad name="PC2" x="0" y="0" drill="1" shape="square"/>
+<pad name="PD0" x="0" y="-2.54" drill="1"/>
+<pad name="PD1" x="0" y="-5.08" drill="1"/>
+<pad name="PD2" x="0" y="-7.62" drill="1"/>
+<pad name="PD3" x="0" y="-10.16" drill="1"/>
+<pad name="PD4" x="0" y="-12.7" drill="1"/>
+<pad name="PD5" x="0" y="-15.24" drill="1"/>
+<pad name="PD6" x="0" y="-17.78" drill="1"/>
+<pad name="PD7" x="0" y="-20.32" drill="1"/>
+<pad name="PB0" x="0" y="-22.86" drill="1"/>
+<pad name="VCC" x="15.24" y="0" drill="1"/>
+<pad name="PC4" x="15.24" y="-2.54" drill="1"/>
+<pad name="PC5" x="15.24" y="-5.08" drill="1"/>
+<pad name="!RESET" x="15.24" y="-7.62" drill="1"/>
+<pad name="PC6" x="15.24" y="-10.16" drill="1"/>
+<pad name="PC7" x="15.24" y="-12.7" drill="1"/>
+<pad name="PB7" x="15.24" y="-15.24" drill="1"/>
+<pad name="PB6" x="15.24" y="-17.78" drill="1"/>
+<pad name="PB5" x="15.24" y="-20.32" drill="1"/>
+<pad name="PB4" x="15.24" y="-22.86" drill="1"/>
+<pad name="PB1" x="0" y="-25.4" drill="1"/>
+<pad name="GND" x="0" y="-27.94" drill="1"/>
+<pad name="PB3" x="15.24" y="-25.4" drill="1"/>
+<pad name="PB2" x="15.24" y="-27.94" drill="1"/>
+<wire x1="-2.54" y1="-27.94" x2="-2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="2.54" width="0.127" layer="21" curve="-90"/>
+<wire x1="15.24" y1="2.54" x2="17.78" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="-27.94" width="0.127" layer="21"/>
+<wire x1="17.78" y1="-27.94" x2="15.24" y2="-30.48" width="0.127" layer="21" curve="-90"/>
+<wire x1="15.24" y1="-30.48" x2="0" y2="-30.48" width="0.127" layer="21"/>
+<wire x1="0" y1="-30.48" x2="-2.54" y2="-27.94" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="5.08" width="0.127" layer="21" curve="90"/>
+<wire x1="2.54" y1="5.08" x2="5.08" y2="7.62" width="0.127" layer="21" curve="-90"/>
+<wire x1="15.24" y1="2.54" x2="12.7" y2="5.08" width="0.127" layer="21" curve="-90"/>
+<wire x1="12.7" y1="5.08" x2="10.16" y2="7.62" width="0.127" layer="21" curve="90"/>
+<wire x1="10.16" y1="7.62" x2="5.08" y2="7.62" width="0.127" layer="21"/>
+</package>
+<package name="MINIMUSNOPINS">
+<pad name="PC2" x="0" y="0" drill="1" shape="square"/>
+<pad name="PD0" x="0" y="-2.54" drill="1"/>
+<pad name="PD1" x="0" y="-5.08" drill="1"/>
+<pad name="PD2" x="0" y="-7.62" drill="1"/>
+<pad name="PD3" x="0" y="-10.16" drill="1"/>
+<pad name="PD4" x="0" y="-12.7" drill="1"/>
+<pad name="PD5" x="0" y="-15.24" drill="1"/>
+<pad name="PD6" x="0" y="-17.78" drill="1"/>
+<pad name="PD7" x="0" y="-20.32" drill="1"/>
+<pad name="PB0" x="0" y="-22.86" drill="1"/>
+<pad name="VCC" x="15.24" y="0" drill="1"/>
+<pad name="PC4" x="15.24" y="-2.54" drill="1"/>
+<pad name="PC5" x="15.24" y="-5.08" drill="1"/>
+<pad name="!RESET" x="15.24" y="-7.62" drill="1"/>
+<pad name="PC6" x="15.24" y="-10.16" drill="1"/>
+<pad name="PC7" x="15.24" y="-12.7" drill="1"/>
+<pad name="PB7" x="15.24" y="-15.24" drill="1"/>
+<pad name="PB6" x="15.24" y="-17.78" drill="1"/>
+<pad name="PB5" x="15.24" y="-20.32" drill="1"/>
+<pad name="PB4" x="15.24" y="-22.86" drill="1"/>
+<pad name="PB1" x="0" y="-25.4" drill="1"/>
+<pad name="GND" x="0" y="-27.94" drill="1"/>
+<pad name="PB3" x="15.24" y="-25.4" drill="1"/>
+<pad name="PB2" x="15.24" y="-27.94" drill="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MINIMUS">
+<pin name="VCC" x="10.16" y="10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-12.7" y="-17.78" length="short" direction="pwr"/>
+<pin name="!RESET" x="10.16" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="PD0" x="-12.7" y="7.62" length="short"/>
+<pin name="PD1" x="-12.7" y="5.08" length="short"/>
+<pin name="PD2" x="-12.7" y="2.54" length="short"/>
+<pin name="PD3" x="-12.7" y="0" length="short"/>
+<pin name="PD4" x="-12.7" y="-2.54" length="short"/>
+<pin name="PD5" x="-12.7" y="-5.08" length="short"/>
+<pin name="PD6" x="-12.7" y="-7.62" length="short"/>
+<pin name="PD7" x="-12.7" y="-10.16" length="short"/>
+<pin name="PB1" x="-12.7" y="-15.24" length="short"/>
+<pin name="PB0" x="-12.7" y="-12.7" length="short"/>
+<pin name="PB2" x="10.16" y="-17.78" length="short" rot="R180"/>
+<pin name="PB3" x="10.16" y="-15.24" length="short" rot="R180"/>
+<pin name="PB4" x="10.16" y="-12.7" length="short" rot="R180"/>
+<pin name="PB5" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="PB6" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="PB7" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="PC7" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="PC2" x="-12.7" y="10.16" length="short"/>
+<pin name="PC4" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="PC5" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="PC6" x="10.16" y="0" length="short" rot="R180"/>
+<wire x1="-10.16" y1="12.7" x2="7.62" y2="12.7" width="0" layer="97"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-20.32" width="0" layer="97"/>
+<wire x1="7.62" y1="-20.32" x2="-10.16" y2="-20.32" width="0" layer="97"/>
+<wire x1="-10.16" y1="-20.32" x2="-10.16" y2="12.7" width="0" layer="97"/>
+<text x="-10.16" y="-22.86" size="1.778" layer="97">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MINIMUS">
+<gates>
+<gate name="G$1" symbol="MINIMUS" x="10.16" y="-12.7"/>
+</gates>
+<devices>
+<device name="" package="MINIMUS">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="!RESET"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6" pad="PB6"/>
+<connect gate="G$1" pin="PB7" pad="PB7"/>
+<connect gate="G$1" pin="PC2" pad="PC2"/>
+<connect gate="G$1" pin="PC4" pad="PC4"/>
+<connect gate="G$1" pin="PC5" pad="PC5"/>
+<connect gate="G$1" pin="PC6" pad="PC6"/>
+<connect gate="G$1" pin="PC7" pad="PC7"/>
+<connect gate="G$1" pin="PD0" pad="PD0"/>
+<connect gate="G$1" pin="PD1" pad="PD1"/>
+<connect gate="G$1" pin="PD2" pad="PD2"/>
+<connect gate="G$1" pin="PD3" pad="PD3"/>
+<connect gate="G$1" pin="PD4" pad="PD4"/>
+<connect gate="G$1" pin="PD5" pad="PD5"/>
+<connect gate="G$1" pin="PD6" pad="PD6"/>
+<connect gate="G$1" pin="PD7" pad="PD7"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="NODIM" package="MINIMUSNOPINS">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="!RESET"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="PB0" pad="PB0"/>
+<connect gate="G$1" pin="PB1" pad="PB1"/>
+<connect gate="G$1" pin="PB2" pad="PB2"/>
+<connect gate="G$1" pin="PB3" pad="PB3"/>
+<connect gate="G$1" pin="PB4" pad="PB4"/>
+<connect gate="G$1" pin="PB5" pad="PB5"/>
+<connect gate="G$1" pin="PB6" pad="PB6"/>
+<connect gate="G$1" pin="PB7" pad="PB7"/>
+<connect gate="G$1" pin="PC2" pad="PC2"/>
+<connect gate="G$1" pin="PC4" pad="PC4"/>
+<connect gate="G$1" pin="PC5" pad="PC5"/>
+<connect gate="G$1" pin="PC6" pad="PC6"/>
+<connect gate="G$1" pin="PC7" pad="PC7"/>
+<connect gate="G$1" pin="PD0" pad="PD0"/>
+<connect gate="G$1" pin="PD1" pad="PD1"/>
+<connect gate="G$1" pin="PD2" pad="PD2"/>
+<connect gate="G$1" pin="PD3" pad="PD3"/>
+<connect gate="G$1" pin="PD4" pad="PD4"/>
+<connect gate="G$1" pin="PD5" pad="PD5"/>
+<connect gate="G$1" pin="PD6" pad="PD6"/>
+<connect gate="G$1" pin="PD7" pad="PD7"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
