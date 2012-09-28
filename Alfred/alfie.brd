@@ -16,8 +16,8 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -1872,33 +1872,33 @@ design rules under a new name.
 <param name="mdDrill" value="8mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="10mil"/>
-<param name="msDrill" value="0.6mm"/>
+<param name="msDrill" value="0.8mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.25"/>
-<param name="rvPadInner" value="0.25"/>
-<param name="rvPadBottom" value="0.25"/>
+<param name="rvPadTop" value="1"/>
+<param name="rvPadInner" value="1"/>
+<param name="rvPadBottom" value="1"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="16mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="16mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="16mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinPadTop" value="18mil"/>
+<param name="rlMaxPadTop" value="18mil"/>
+<param name="rlMinPadInner" value="18mil"/>
+<param name="rlMaxPadInner" value="18mil"/>
+<param name="rlMinPadBottom" value="18mil"/>
+<param name="rlMaxPadBottom" value="18mil"/>
 <param name="rlMinViaOuter" value="8mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMaxViaOuter" value="16mil"/>
 <param name="rlMinViaInner" value="8mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMaxViaInner" value="16mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
 <param name="rlMinMicroViaInner" value="4mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
-<param name="psTop" value="2"/>
-<param name="psBottom" value="2"/>
-<param name="psFirst" value="-1"/>
+<param name="psTop" value="1"/>
+<param name="psBottom" value="1"/>
+<param name="psFirst" value="0"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
@@ -1919,7 +1919,7 @@ design rules under a new name.
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="useDiameter" value="15"/>
+<param name="useDiameter" value="13"/>
 <param name="maxErrors" value="999999"/>
 </designrules>
 <autorouter>
@@ -2432,13 +2432,13 @@ design rules under a new name.
 </signal>
 </signals>
 <errors>
-<approved hash="19,16,79955779574c79a0"/>
-<approved hash="19,16,1fe73ecf3efa1fd2"/>
-<approved hash="19,16,6bbe4aa24a976b8b"/>
-<approved hash="19,16,2ddb08a308962dee"/>
-<approved hash="19,16,03083228321d033d"/>
-<approved hash="19,16,3b92156615533ba7"/>
-<approved hash="19,16,3609205d2068363c"/>
+<approved hash="19,16,d94aeb7eef74dd40"/>
+<approved hash="19,16,b8e48a948e9ebcee"/>
+<approved hash="19,16,cbcff297f69dcfc5"/>
+<approved hash="19,16,8dc8bc80b88a89c2"/>
+<approved hash="19,16,bf29896d8d67bb23"/>
+<approved hash="19,16,9bb3ad73a9799fb9"/>
+<approved hash="19,16,a9fe9aba9eb0adf4"/>
 </errors>
 </board>
 </drawing>
