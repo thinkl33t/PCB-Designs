@@ -1,0 +1,38 @@
+Partlist exported from /home/hacman/Documents/Bob-PCB-Designs/Alfred/alfie.sch at 30/09/2012 16:15
+
+Assembly variant: 
+
+Part Value             Device            Package      Description                         
+C1                     C-EU025-030X050   C025-030X050 CAPACITOR, European symbol          
+C2                     C-EU025-030X050   C025-030X050 CAPACITOR, European symbol          
+C3   1nF               C-EUC0805         C0805        CAPACITOR, European symbol          
+C4   1nF               C-EUC0805         C0805        CAPACITOR, European symbol          
+C5   1nF               C-EUC0805         C0805        CAPACITOR, European symbol          
+C6   1nF               C-EUC0805         C0805        CAPACITOR, European symbol          
+C7   1nF               C-EUC0805         C0805        CAPACITOR, European symbol          
+C8   1nF               C-EUC0805         C0805        CAPACITOR, European symbol          
+C9   100nF             C-EUC0805         C0805        CAPACITOR, European symbol          
+C10  100nF             C-EUC0805         C0805        CAPACITOR, European symbol          
+C11  100nF             C-EUC0805         C0805        CAPACITOR, European symbol          
+C13                    CPOL-EUE5-8.5     E5-8,5       POLARIZED CAPACITOR, European symbol
+D1   1N4148DO35-7      1N4148DO35-7      DO35-7       DIODE                               
+D2   1N4148DO35-7      1N4148DO35-7      DO35-7       DIODE                               
+D3   1N4148DO35-7      1N4148DO35-7      DO35-7       DIODE                               
+D4   1N4148DO35-7      1N4148DO35-7      DO35-7       DIODE                               
+D5   1N4148DO35-7      1N4148DO35-7      DO35-7       DIODE                               
+D6   1N4148DO35-7      1N4148DO35-7      DO35-7       DIODE                               
+IC1  7805TV            7805TV            TO220V       Positive VOLTAGE REGULATOR          
+K1   4052              4052              F4052        RELAY                               
+K3   4052              4052              F4052        RELAY                               
+R1                     R-EU_0207/10      0207/10      RESISTOR, European symbol           
+SV1                    FE10-2            FE10-2       FEMALE HEADER                       
+U$1  MINIMUS           MINIMUS           MINIMUS                                          
+U$2  NTF3055L108T1GTAB NTF3055L108T1GTAB SOT223       Power MOSFET                        
+U$3  NTF3055L108T1GTAB NTF3055L108T1GTAB SOT223       Power MOSFET                        
+U$4  NTF3055L108T1GTAB NTF3055L108T1GTAB SOT223       Power MOSFET                        
+U$5  NTF3055L108T1GTAB NTF3055L108T1GTAB SOT223       Power MOSFET                        
+X1                     233-508           233-508      WAGO Cage Clamp                     
+X2                     W237-05P          W237-5P      WAGO SREW CLAMP                     
+X3                     W237-102          W237-102     WAGO SCREW CLAMP                    
+X4                     W237-102          W237-102     WAGO SCREW CLAMP                    
+X5                     W237-102          W237-102     WAGO SCREW CLAMP                    
