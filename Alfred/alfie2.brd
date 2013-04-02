@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -1762,26 +1762,27 @@ design rules under a new name.
 <contactref element="U$1" pad="VCC"/>
 <contactref element="X1" pad="B8"/>
 <contactref element="C9" pad="1"/>
-<wire x1="12.025" y1="47.9425" x2="4.125" y2="47.9425" width="0.8128" layer="16"/>
-<wire x1="42.545" y1="8.255" x2="42.545" y2="40.9575" width="0.8128" layer="16"/>
-<wire x1="35.56" y1="47.9425" x2="12.025" y2="47.9425" width="0.8128" layer="16"/>
+<wire x1="12.025" y1="47.9425" x2="4.125" y2="47.9425" width="1.4224" layer="16"/>
+<wire x1="42.545" y1="6.985" x2="42.545" y2="40.9575" width="1.4224" layer="16"/>
+<wire x1="35.56" y1="47.9425" x2="12.025" y2="47.9425" width="1.4224" layer="16"/>
 <wire x1="40.005" y1="42.2275" x2="40.0075" y2="42.2275" width="0.8128" layer="16"/>
-<wire x1="42.545" y1="40.9575" x2="41.275" y2="42.2275" width="0.8128" layer="16"/>
-<wire x1="40.005" y1="43.4975" x2="35.56" y2="47.9425" width="0.8128" layer="16"/>
-<wire x1="40.005" y1="42.2275" x2="41.275" y2="42.2275" width="0.8128" layer="16"/>
-<wire x1="41.275" y1="42.2275" x2="40.005" y2="43.4975" width="0.8128" layer="16"/>
+<wire x1="42.545" y1="40.9575" x2="41.275" y2="42.2275" width="1.4224" layer="16"/>
+<wire x1="40.005" y1="43.4975" x2="35.56" y2="47.9425" width="1.4224" layer="16"/>
+<wire x1="40.005" y1="42.2275" x2="41.275" y2="42.2275" width="1.4224" layer="16"/>
+<wire x1="41.275" y1="42.2275" x2="40.005" y2="43.4975" width="1.4224" layer="16"/>
 <wire x1="40.005" y1="43.4975" x2="40.005" y2="42.2275" width="0.8128" layer="16"/>
 <contactref element="X3" pad="P$1"/>
 <contactref element="U$2" pad="P$2"/>
 <contactref element="IC1" pad="3"/>
-<wire x1="16.8275" y1="5.715" x2="27.305" y2="5.715" width="0.8128" layer="16"/>
-<wire x1="27.305" y1="5.715" x2="33.3375" y2="5.715" width="0.8128" layer="16"/>
+<wire x1="16.8275" y1="5.715" x2="27.305" y2="5.715" width="1.4224" layer="16"/>
+<wire x1="27.305" y1="5.715" x2="33.3375" y2="5.715" width="1.4224" layer="16"/>
 <contactref element="U$4" pad="P$2"/>
-<wire x1="27.305" y1="7.9375" x2="27.305" y2="5.715" width="0.8128" layer="16"/>
-<wire x1="13.0175" y1="3.81" x2="14.9225" y2="3.81" width="0.8128" layer="16"/>
-<wire x1="14.9225" y1="3.81" x2="16.8275" y2="5.715" width="0.8128" layer="16"/>
-<wire x1="33.3375" y1="5.715" x2="40.005" y2="5.715" width="0.8128" layer="16"/>
-<wire x1="40.005" y1="5.715" x2="42.545" y2="8.255" width="0.8128" layer="16"/>
+<wire x1="27.305" y1="7.9375" x2="27.305" y2="5.715" width="1.4224" layer="16"/>
+<wire x1="13.0175" y1="3.81" x2="14.9225" y2="3.81" width="1.4224" layer="16"/>
+<wire x1="14.9225" y1="3.81" x2="16.8275" y2="5.715" width="1.4224" layer="16"/>
+<wire x1="33.3375" y1="5.715" x2="40.005" y2="5.715" width="1.4224" layer="16"/>
+<wire x1="40.005" y1="5.715" x2="41.275" y2="5.715" width="1.4224" layer="16"/>
+<wire x1="41.275" y1="5.715" x2="42.545" y2="6.985" width="1.4224" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="U$1" pad="GND"/>
@@ -1970,6 +1971,26 @@ design rules under a new name.
 <via x="45" y="5" extent="1-16" drill="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="3,16,789a4a6bfc9bce6a"/>
+<approved hash="3,16,77f61ddcbc8dd6a7"/>
+<approved hash="2,20,334f40cf4e333db3"/>
+<approved hash="2,20,9a1c499c4fc99c49"/>
+<approved hash="2,20,90bc433c4cc99f49"/>
+<approved hash="4,1,227238c65281e075"/>
+<approved hash="4,1,bc6aa2c69681006d"/>
+<approved hash="4,16,227238c65281e075"/>
+<approved hash="4,16,bc6aa2c69681006d"/>
+<approved hash="19,16,d2cd503c7406f6f7"/>
+<approved hash="19,16,c46dc1a1c59ac056"/>
+<approved hash="19,16,8a898dd589ee8eb2"/>
+<approved hash="19,16,827883bc87878643"/>
+<approved hash="19,16,f22cf3a8f793f617"/>
+<approved hash="19,16,e01fe4dfe0e4e424"/>
+<approved hash="19,16,9546968692bd917d"/>
+<approved hash="4,16,7602539bd6bcac98"/>
+<approved hash="4,16,8782fd049bb02778"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
