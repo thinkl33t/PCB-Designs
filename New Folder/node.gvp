@@ -1,0 +1,8 @@
+(gerbv-file-version! "2.0A")
+(define-layer! 4 (cons 'filename "node-TOP-COPPER.GTL")(cons 'visible #t)(cons 'color #(40813 23657 0)))
+(define-layer! 3 (cons 'filename "node-TOP-PASTE.GTP")(cons 'visible #t)(cons 'color #(48129 48129 48129)))
+(define-layer! 2 (cons 'filename "node-TOP-MASK.GTS")(cons 'inverted #t)(cons 'visible #t)(cons 'color #(0 11618 47937)))
+(define-layer! 1 (cons 'filename "node-TOP-SILK.GTO")(cons 'visible #t)(cons 'color #(65535 65535 65535)))
+(define-layer! 0 (cons 'filename "node-DRILLS.TXT")(cons 'visible #t)(cons 'color #(0 0 0))(cons 'attribs (list (list 'autodetect 'Boolean 1) (list 'zero_supression 'Enum 0) (list 'units 'Enum 0) (list 'digits 'Integer 4))))
+(define-layer! -1 (cons 'filename "(null)")(cons 'visible #f)(cons 'color #(0 0 0)))
+(set-render-type! 2)
